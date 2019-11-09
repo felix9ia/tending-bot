@@ -1,5 +1,5 @@
 # 构建镜像的基础源镜像
-FROM hub.c.163.com/nce2/nodejs:0.12.2
+FROM node:10
  
 # Create app directory
 # 用于在Image里创建一个文件夹并用来保存我们的代码
