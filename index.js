@@ -39,7 +39,7 @@ const destructTentMes = (body) => {
             pusher
         } = body;
         const pusherName = getUsername(pusher);
-        resultTexts = resultTexts + `${pusherName}\n`;
+        resultTexts = resultTexts + `${pusherName}提交了代码`;
         return resultTexts;
     }
 
