@@ -24,7 +24,7 @@ const destructTentMes = (body) => {
      * @param {*} text 
      */
     const getMarkdownTextTemp = (text) => {
-        return `> ${text}`
+        return `> ${text} \n`
     }
     const getUsername = (pusher) => {
         const {
@@ -68,7 +68,7 @@ const destructTentMes = (body) => {
             } = commit;
 
             const resultMes = getMarkdownTextTemp(message);
-            resultTexts = resultTexts + resultMes;
+            resultTexts = `${resultTexts}${resultMes}`;
         });
         return resultTexts;
     }
