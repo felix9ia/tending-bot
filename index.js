@@ -3,13 +3,10 @@ const _ = require("lodash")
 const bodyParser = require("body-parser")
 const express = require("express");
 const app = express();
-const port = 6777;
+const port = 6888;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
-
-
 
 
 const protocolMesTemplate = {
