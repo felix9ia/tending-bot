@@ -1,0 +1,17 @@
+{
+  "name": "tending-bot",
+  "version": "1.0.0",
+  "description": "腾讯和钉钉的中间人",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dingding"
+  ],
+  "author": "felix9ia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
